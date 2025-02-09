@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    
+    background-color: #2874f0;
+    font-family: 'Courgette', cursive;
+}
+nav ul li
+{
+list-style: none;
+padding: 0 20px;
+
+
+}
+nav ul li a
+{
+   text-decoration: none;
+   color: white;
+  
+   
+}
+nav ul li a:hover
+
+{
+    
+    color: rgb(228, 220, 220);
+}
+nav ul
+{
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+nav
+{
+    display: flex;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.logo img
+{
+    width: 100px;
+    padding: 0 20px;
+}
+.search
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input
+{
+    width:350px ;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0 12px;
+}
+
+.search button
+{
+    font-family: 'Courgette', cursive;
+}
+.search button:hover{
+    color: antiquewhite;
+}
+.slider
+{
+    width: 70vw;
+    margin: 10px 165px;
+    overflow: hidden;
+}
+
+.container
+{
+min-height: calc(100vh - 58px - 10vh);
+}
+.card h2
+{
+    font-family: 'Courgette', cursive;
+    margin: 11px -13px;
+}
+.card
+{
+    margin: auto;
+    width: 90vw;
+}
+.lines
+{
+    margin: 3px 40px;
+}
+.card-items
+{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.cards{
+    display: flex;
+    overflow: hidden;
+    
+}
+
+footer
+{
+height: 10vh;
+background-color:#2874f0;
+color: white;
+font-family: 'Courgette', cursive;
+}
